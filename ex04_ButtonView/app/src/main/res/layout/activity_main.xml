@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="버튼1"
+        android:background="#00ff00"
+        android:layout_margin="30dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="여긴 텍스트뷰입니다."
+        android:layout_margin="10dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0000a2"
+        android:layout_margin="10dp"
+        />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="버튼2"
+        android:enabled="false"
+        android:layout_margin="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="textSize 속성" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textColor="#00ff00"
+        android:text="textColor 속성" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textStyle="bold|italic"
+        android:text="textStyle 속성" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:typeface="serif"
+        android:text="typeface 속성" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:singleLine="true"
+        android:text="singleLine 속성 singleLine 속성 singleLine 속성 singleLine 속성" />
+
+    <TextView
+        android:text="TextView 연습1"
+        android:id="@+id/textView1"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content" />
+    <TextView
+        android:text="TextView 연습2"
+        android:id="@+id/textView2"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content" />
+    <TextView
+        android:text="TextView 연습3"
+        android:id="@+id/textView3"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content" />
+
+</LinearLayout>
